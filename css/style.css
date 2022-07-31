@@ -1,0 +1,33 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+h1,
+h3,
+h4 {
+  line-height: 3rem;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="number"] {
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+/* app */
+.app {
+  width: 550px;
+  margin: 50px auto;
+  border: 2px solid seagreen;
+  border-radius: 5px;
+  padding: 20px;
+}
